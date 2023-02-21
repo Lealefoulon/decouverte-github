@@ -1,0 +1,87 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body{
+
+    width: 100vw;
+    
+   
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+
+.banniere{
+    background: url('./sanfrancisco.jpg') no-repeat ;
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    background-size: cover;
+  
+
+}
+
+form{
+    
+    
+    gap: 15px;
+    margin-top: 20px;
+    width: 250px;
+    align-items: center;
+    
+   
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+form div label{
+    text-align: center;
+}
+form div input{
+    border: solid 1px rgb(18, 126, 184);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px
+}
+form div input[type='submit']{
+    background-color: rgb(18, 126, 184);
+    border: none;
+    color: white;
+    margin-top: 15px;
+    /* width: 10vw; */
+    
+    
+    
+
+   
+}
+
+.form{
+    
+    display: flex;
+    align-self: center;
+    
+    
+}
+
+    
+
